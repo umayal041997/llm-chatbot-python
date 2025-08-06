@@ -19,3 +19,28 @@ llm = AutoModelForCausalLM.from_pretrained(
 # Good prompts are very specific
 prompt = "What is the name of the capital city of India, she asked. Please only respond with the city name and then stop talking. He answered: "
 print(prompt + llm(prompt))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    You are an AI assistant that gives 50 word short and concise summary about the provided book. You give the top 5 powerful quotes from the "
+    "given book. And you also provide the other works from the author of the given book. You provide all these info with separate title and paragraph.
